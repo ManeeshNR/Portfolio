@@ -280,7 +280,7 @@ h2 {
 }
 
 .project {
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(20, 20, 20, 0.95));
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgb(253, 250, 250));
     padding: 20px;
     border-radius: 14px;
     border: 1px solid var(--glass-border);
@@ -339,4 +339,5 @@ footer {
         width: 180px;
         height: 180px
     }
+
 }
