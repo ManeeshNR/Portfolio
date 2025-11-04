@@ -1,163 +1,236 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Maneesh N R — Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maneesh N R — Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@400;600;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="topbar">
-            <div class="logo">Maneesh N R</div>
-            <nav class="nav">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#technologies">Technologies</a>
-                <a href="#projects">Projects</a>
-                <a href="#internship">Internship</a>
-                <a href="#certification">Certification</a>
-                <a href="Resume_.pdf" download class="resume-btn">Resume</a>
-            </nav>
-        </div>
+  <!-- Custom glow cursor element -->
+  <div id="glow-cursor" aria-hidden="true"></div>
 
-        <!-- HERO -->
-        <div class="hero">
-            <div class="card intro">
-                <h1>Hello, I'm Maneesh</h1>
-                <p class="lead">Final-year Computer Science student specializing in Data Science, driven by strong interests in technology, innovation, and real-world problem-solving. Skilled in Python, React.js, Node.js, and MongoDB, with hands-on experience developing
-                    impactful, technology-driven solutions. Interested in growing professionally and working on innovative projects that advance organizational goals. Looking for challenging opportunities in Data Science, Software Engineering, Full-Stack
-                    Development, and Data Analytics to contribute fresh perspectives and technical expertise.</p>
-
-                <div style="margin-top:20px; display:flex; gap:14px; align-items:center; color:var(--muted)">
-                    <div style="font-weight:700">Mangalore, Karnataka</div>
-                    <div style="opacity:0.6">•</div>
-                    <div class="subtext">B.E CSE — CGPA 8.25/10</div>
-                </div>
-            </div>
-
-            <aside class="card profile">
-                <div class="avatar"><img src="img.jpg" alt="Maneesh"></div>
-                <div style="text-align:center">
-                    <div style="font-weight:700">Maneesh N R</div>
-                    <div class="subtext">Computer Science and Engineering (Data Science)</div>
-                </div>
-
-                <div class="socials" style="margin-top:8px">
-                    <a href="https://github.com/ManeeshNR" target="_blank" rel="noopener noreferrer" title="GitHub">GH</a>
-                    <a href="https://www.linkedin.com/in/maneesh-n-r-56a804257" target="_blank" rel="noopener noreferrer" title="LinkedIn">in</a>
-                </div>
-            </aside>
-        </div>
-
-        <!-- ABOUT -->
-        <main>
-            <section id="about">
-                <div class="section-head">
-                    <h2>About</h2>
-                </div>
-                <div class="grid-2">
-                    <div>
-                        <p>I am pursuing B.E. CSE at Vivekananda College of Engineering and Technology, Puttur. I enjoy merging user-centered design with data-driven approaches to build meaningful products.</p>
-
-                        <h3 style="margin-top:18px; color:var(--accent)">Education & Coursework</h3>
-                        <p class="meta">Sept 2022 – Aug 2026 — Relevant courses: Data Structures, Operating System, Theory of Computation, Computer Networks, Design & Analysis of Algorithm, Big Data Analytics, Database Management, Artificial Intelligence & Machine Learning</p>
-                    </div>
-
-                    <aside>
-                        <div class="card" style="padding:16px; margin-bottom:14px">
-                            <div style="font-weight:700; color:var(--accent-2)">Contact</div>
-                            <div class="subtext">Mangalore, Karnataka</div>
-                            <div style="margin-top:8px">
-                                <svg xmlns="http://www.w3.org/2000/svg" style="width:16px; height:16px; vertical-align:middle; margin-right:6px; fill: var(--accent-2);" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                                <a href="mailto:maneeshnr07@gmail.com">maneeshnr07@gmail.com</a>
-                            </div>
-                            <div class="subtext" style="margin-top:6px">
-                                <svg xmlns="http://www.w3.org/2000/svg" style="width:16px; height:16px; vertical-align:middle; margin-right:6px; fill: var(--accent-2);" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 6a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
-                                <a href="tel:+918792084067">+91 8792084067</a>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </section>
-            <section id="technologies">
-                <div class="section-head">
-                    <h2>Technologies</h2>
-                </div>
-                <div class="card" style="padding:16px;">
-                    <p style="margin-top:8px; line-height:1.5;">Programming Languages: C++, C, Java, Python, JavaScript</p>
-                    <p style="margin-top:6px; line-height:1.5;">Web & App Development: HTML, CSS, React, Node.js, Figma</p>
-                    <p style="margin-top:6px; line-height:1.5;">Data Science & Machine Learning: NumPy, Pandas, Scikit-learn, Google ADK</p>
-                    <p style="margin-top:6px; line-height:1.5;">Data Analytics: Tableau, Power BI, Hadoop, Spark, Hive</p>
-                    <p style="margin-top:6px; line-height:1.5;">Cloud & DevOps: Google Cloud, ThingSpeak, Git, GitHub</p>
-                    <p style="margin-top:6px; line-height:1.5;">Databases: MongoDB, MySQL</p>
-                </div>
-            </section>
-
-            <!-- PROJECTS -->
-            <section id="projects">
-                <div class="section-head">
-                    <h2>Projects</h2>
-                </div>
-                <div class="projects">
-                    <article class="project">
-                        <h4>AquaSense - Water Quality Monitoring and Environmental Control Through IoT</h4>
-                        <div class="meta">IoT and Machine Learning Project</div>
-                        <p style="margin-top:8px">Developed an IoT-enabled system for real-time water quality monitoring using pH, Turbidity, and TDS sensors integrated with ThingSpeak cloud. Implemented predictive analytics using the Random Forest classifier to classify water
-                            safety, detect anomalies, and provide proactive alerts for contamination. Bridges gaps in conventional monitoring by offering real-time insights and automated environmental control.</p>
-                        <div class="subtext" style="margin-top:10px"><strong>Tech:</strong> Python · Pandas · Scikit-learn · Flask · HTML · CSS · JavaScript · ThingSpeak</div>
-                    </article>
-
-                    <article class="project">
-                        <h4>E-Commerce Website with One-Click Reordering Feature</h4>
-                        <div class="meta">Full Stack Web Application</div>
-                        <p style="margin-top:8px">Built a full-stack e-commerce platform using the MERN stack (MongoDB, Express, React, Node.js). Implemented features that include product browsing, cart management, secure checkout, and order history. Designed a special one-click
-                            reordering feature that allows customers to quickly repurchase previously bought products, enhancing convenience and improving customer retention.</p>
-                        <div class="subtext" style="margin-top:10px"><strong>Tech:</strong> React · Node.js · Express · MongoDB · JavaScript · HTML · CSS</div>
-                    </article>
-                </div>
-            </section>
-
-            <!-- INTERNSHIP -->
-            <section id="internship">
-                <div class="section-head">
-                    <h2>Internship</h2>
-                </div>
-                <div class="card" style="padding:16px;">
-                    <h4>Industrial Internship — 1stop.ai (Personifwy)</h4>
-                    <div class="meta">Mar 2025 – Apr 2025</div>
-                    <p style="margin-top:8px">Successfully completed an internship program in Data Science at 1stop.ai from March 1, 2025 to April 30, 2025, demonstrating dedication, hard work, and diligence.</p>
-                </div>
-            </section>
-
-            <!-- CERTS -->
-            <section id="certification">
-                <div class="section-head">
-                    <h2>Certification</h2>
-                </div>
-                <div class="cert-grid">
-                    <div class="cert"><strong>Deloitte Australia – Data Analytics Job Simulation</strong>
-                        <div class="subtext" style="margin-top:6px">May 2025</div>
-                    </div>
-                    <div class="cert"><strong>Postman Classroom Program — NITK Surathkal</strong>
-                        <div class="subtext" style="margin-top:6px">Jun 2024</div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer>👉✦ ⚙️© 2025 ⚡Maneesh N R⚡ ✦</footer>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="logo">Maneesh N R</div>
+      <nav class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#technologies" class="nav-link">Technologies</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#internship" class="nav-link">Internship</a>
+        <a href="#certification" class="nav-link">Certification</a>
+        <a href="Resume_.pdf" download class="resume-btn accent-cta">Resume</a>
+      </nav>
     </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="intro card reveal" data-reveal>
+      <h1>Hello, I'm <span class="highlight">Maneesh</span></h1>
+      <p class="lead">
+        Final-year Computer Science student specializing in Data Science, passionate about solving real-world
+        problems using technology. Skilled in Python, React.js, Node.js, and MongoDB, with a focus on
+        innovative, impactful development.
+      </p>
+      <div class="details">
+        <span><strong>Mangalore, Karnataka</strong></span>
+        <span class="dot">•</span>
+        <span>B.E CSE — CGPA 8.25/10</span>
+      </div>
+
+      <div class="ctas" style="margin-top:18px;">
+        <a class="btn accent-cta" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#about">About Me</a>
+      </div>
+    </div>
+
+    <aside class="profile card reveal" data-reveal>
+      <div class="avatar">
+        <img src="img.jpg" alt="Maneesh N R">
+      </div>
+      <h3>Maneesh N R</h3>
+      <p class="subtext">Computer Science and Engineering</p>
+      <div class="socials">
+        <a href="https://github.com/ManeeshNR" target="_blank" title="GitHub" class="social-link">GH</a>
+        <a href="https://www.linkedin.com/in/maneesh-n-r-56a804257" target="_blank" title="LinkedIn" class="social-link">in</a>
+      </div>
+    </aside>
+  </section>
+
+  <main class="container">
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal" data-reveal>
+      <h2>About</h2>
+      <div class="grid-2">
+        <div>
+          <p>
+            I am pursuing B.E. CSE at Vivekananda College of Engineering and Technology, Puttur.
+            I enjoy combining user-centered design with data-driven approaches to build meaningful, intelligent
+            software solutions.
+          </p>
+          <h3>Education & Coursework</h3>
+          <p class="meta">
+            Sept 2022 – Aug 2026 — Data Structures, Operating Systems, Theory of Computation,
+            Computer Networks, Design & Analysis of Algorithms, Big Data Analytics, Database Management,
+            Artificial Intelligence & Machine Learning
+          </p>
+        </div>
+        <aside class="card contact-card">
+          <h4>Contact</h4>
+          <p>Mangalore, Karnataka</p>
+          <p><a href="mailto:maneeshnr07@gmail.com">maneeshnr07@gmail.com</a></p>
+          <p><a href="tel:+918792084067">+91 8792084067</a></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section id="technologies" class="reveal" data-reveal>
+      <h2>Technologies</h2>
+      <div class="card">
+        <p><strong>Programming:</strong> C++, C, Java, Python, JavaScript</p>
+        <p><strong>Web & App:</strong> HTML, CSS, React, Node.js, Figma</p>
+        <p><strong>Data Science:</strong> NumPy, Pandas, Scikit-learn, Google ADK</p>
+        <p><strong>Analytics:</strong> Tableau, Power BI, Hadoop, Spark, Hive</p>
+        <p><strong>Cloud & DevOps:</strong> Google Cloud, ThingSpeak, Git, GitHub</p>
+        <p><strong>Databases:</strong> MongoDB, MySQL</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal" data-reveal>
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project interactive" tabindex="0">
+          <h4>AquaSense — IoT Water Quality Monitoring</h4>
+          <p class="meta">IoT & Machine Learning Project</p>
+          <p>
+            Developed an IoT-enabled system for real-time water quality monitoring using pH,
+            Turbidity, and TDS sensors integrated with ThingSpeak cloud. Implemented predictive
+            analytics using Random Forest for anomaly detection and contamination alerts.
+          </p>
+          <p class="tech">Tech: Python · Flask · ThingSpeak · HTML · CSS · JS</p>
+        </article>
+
+        <article class="project interactive" tabindex="0">
+          <h4>E-Commerce Website with One-Click Reordering</h4>
+          <p class="meta">Full Stack Web Application</p>
+          <p>
+            Built a MERN stack e-commerce platform featuring seamless checkout and a
+            one-click reordering feature for faster repurchases. Enhanced user experience
+            and customer retention through dynamic cart management.
+          </p>
+          <p class="tech">Tech: React · Node.js · Express · MongoDB · JavaScript</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERNSHIP -->
+    <section id="internship" class="reveal" data-reveal>
+      <h2>Internship</h2>
+      <div class="card">
+        <h4>Industrial Internship — 1stop.ai (Personifwy)</h4>
+        <p class="meta">Mar 2025 – Apr 2025</p>
+        <p>
+          Completed a Data Science internship demonstrating excellence in analytics,
+          machine learning applications, and data-driven problem-solving.
+        </p>
+      </div>
+    </section>
+
+    <!-- CERTIFICATION -->
+    <section id="certification" class="reveal" data-reveal>
+      <h2>Certification</h2>
+      <div class="cert-grid">
+        <div class="cert card">
+          <strong>Deloitte Australia — Data Analytics Job Simulation</strong>
+          <p class="meta">May 2025</p>
+        </div>
+        <div class="cert card">
+          <strong>Postman Classroom Program — NITK Surathkal</strong>
+          <p class="meta">Jun 2024</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Maneesh N R — Crafted with Passion & Precision</p>
+  </footer>
+
+  <!-- Minimal JS: reveal on scroll + glow cursor -->
+  <script>
+    // ---- Intersection Observer for reveal animations ----
+    (function () {
+      const reveals = document.querySelectorAll('[data-reveal]');
+      const io = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      reveals.forEach((el, i) => {
+        // Add a small stagger delay
+        el.style.transitionDelay = `${i * 80}ms`;
+        io.observe(el);
+      });
+    })();
+
+    // ---- Glow cursor ----
+    (function () {
+      const cursor = document.getElementById('glow-cursor');
+      if (!cursor) return;
+
+      let mouseX = 0, mouseY = 0, clientX = 0, clientY = 0;
+
+      // Update target mouse position
+      window.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        cursor.style.opacity = '1';
+      });
+
+      // Smooth follow
+      function raf() {
+        clientX += (mouseX - clientX) * 0.18;
+        clientY += (mouseY - clientY) * 0.18;
+        cursor.style.transform = `translate3d(${clientX - 18}px, ${clientY - 18}px, 0)`;
+        requestAnimationFrame(raf);
+      }
+      raf();
+
+      // Add hover state on interactive elements
+      const hoverTargets = document.querySelectorAll('a, .btn, .project, .interactive, .nav-link, .social-link');
+      hoverTargets.forEach(el => {
+        el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+        el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+        // keyboard focus visible
+        el.addEventListener('focus', () => cursor.classList.add('hover'));
+        el.addEventListener('blur', () => cursor.classList.remove('hover'));
+      });
+
+      // Hide cursor when leaving window
+      window.addEventListener('mouseout', () => cursor.style.opacity = '0');
+    })();
+  </script>
 </body>
 
-
 </html>
-
-
-
